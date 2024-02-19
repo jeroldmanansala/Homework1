@@ -21,7 +21,7 @@ class CargoShip extends Ship{
 
 	public void printInfo() {
 		super.printInfo();
-		System.out.println("Ship name: " + getShipName());
+
 		System.out.println("Cargo Capacity(Tons) " + cargoCapacity);
 		
 	}
