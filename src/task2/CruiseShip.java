@@ -22,9 +22,9 @@ class CruiseShip extends Ship {
 	@Override
 	public void printInfo() {
 		super.printInfo();
-		System.out.println("Ship name: " + getShipName());
+	
 		System.out.println("Max passengers: " + maxPassengers);
-		System.out.println();
+
 	}
 
 }
